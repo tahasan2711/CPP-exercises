@@ -5,11 +5,17 @@
 #include <iostream>
 #include <string>
 
+using std::cout;
+using std::cin;
+using std::endl;
+
 int main(){
     std::string str;
-    std::cin >> str;
-    std::cout << str;
 
-    std::cout << std::endl << std::endl;
+    cout << " Name ? :";
+    cin >> str;
+    cout << "Your name :" << str << endl;
+
+    cout << endl << endl;
     return (0);
 }
