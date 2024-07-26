@@ -1,4 +1,4 @@
-#include "cow.h"
+#include "/workspaces/CPP-exercises/src/Ch03/objects_with_pointers/cow.h"
 
 cow::cow(std::string name_i, int age_i, cow_purpose purpose_i){
     name = name_i;
